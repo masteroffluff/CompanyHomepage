@@ -1,0 +1,254 @@
+/* https://upload.wikimedia.org/wikipedia/commons/9/9a/South_Manhatten_from_Staten_Island_Ferry_3_%28New_York%29_%2843429224350%29.jpg */
+/* copyright avilliagehero  under https://creativecommons.org/licenses/by-sa/2.0/*/
+/* see https://commons.wikimedia.org/wiki/File:South_Manhatten_from_Staten_Island_Ferry_3_(New_York)_(43429224350).jpg */
+
+body{
+    /* background-image:linear-gradient(white,white,ivory); */
+    background-color: snow;
+    font-family: Balthazar, 'Times New roman', serif;
+    color: rgb(44, 44, 44);
+    padding-bottom: 100px;
+    height:auto;
+    
+}
+
+/* general formatting */
+
+
+h2{
+    color: maroon;
+    text-align: center;
+    font-size:1.5rem;
+}
+
+h3{
+    font-weight:bold;
+    text-align: center;
+}
+
+
+p{
+    padding-bottom:1em;
+    text-align: justify;
+}
+
+/* @media only screen and (max-width: 450px){
+    h2{
+
+        font-size:3rem;
+    }
+    
+    h3 p{
+        font-size:2rem;
+    }
+} */
+header{
+    display:inline-flex;
+    position:sticky;
+
+    justify-content: center;
+    height:6em;
+
+}
+
+header .imgcontainer{
+
+    height: 6em;
+    width:auto;
+    display:flex;
+    
+    position: absolute;
+
+
+}
+header .imgcontainer img{
+    opacity:20%;
+    height:100%;
+}
+header .companytitle{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-variant: small-caps;
+    text-align: center;
+}
+
+header h1{
+    font-size:2rem;
+
+}
+
+
+nav{
+   
+    display: flex;
+    flex-wrap: wrap;
+    float:right;
+    padding-top:2em;
+}
+
+nav li{
+    list-style: none;
+    display:inline-flex;
+    margin:10px;
+    
+}
+nav a{
+    font-size: 1.2rem;
+}
+/* tablet veiw */
+@media only screen and (max-width: 640px) and (min-width:431px){
+    header{
+        margin-bottom:10px;
+    }
+    nav{
+       
+      /*   display:block; */
+        float: none;
+        padding-top:0;
+        align-items: space-between;
+        
+    }
+}
+/* mobile veiw */
+@media only screen and (max-width: 430px){
+    nav{
+        
+      /*   display:block; */
+        float: none;
+        padding-top:0;
+        flex-direction: column;
+        
+    }
+    nav a{
+        display:flex;
+        padding:1.5em;
+        
+        text-align: center;
+    }
+    nav li{
+        border:maroon 1px solid;
+        display: block;
+
+        border-radius: 1em;
+        text-align: center;
+        box-shadow: 5px 5px 5px maroon;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+    nav li.li_after:active{
+        box-shadow: none;
+
+        margin-top: 15px;
+        margin-bottom: 5px;
+    }
+    nav li.li_first:active{
+        box-shadow: none;
+
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+}
+main {
+    display: flex;
+    flex-direction: column;
+}
+.aboutus {
+    display: flex;
+    flex-direction: column;   
+    /* border:red 1px solid;  */
+    background-image:url("https://upload.wikimedia.org/wikipedia/commons/9/9a/South_Manhatten_from_Staten_Island_Ferry_3_%28New_York%29_%2843429224350%29.jpg");
+    background-position: bottom;
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+}
+
+.aboutus-text{
+    margin-top:2em;
+    margin-bottom:12em;
+    align-self: center;
+    position:relative;
+    float:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:75%;
+    background-color: snow;
+    opacity:90%;
+    padding: 0 1em;
+    border-radius: 0.2em;
+}
+
+.services-text-container{
+    display:flex;
+/*     border:red 1px solid; */
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+.services-text{
+    padding:1em;
+    width:18rem;
+}
+
+.services-text h3{
+    font-weight: bold;
+    text-align: center;
+}
+
+.theteam-container{
+    display:flex;
+/*     border:red 1px solid; */
+    align-content: center;
+    justify-content: center;
+
+    flex-wrap: wrap;
+}
+
+.theteam-member{
+    display:flex;
+    flex-direction: column;
+    padding:1em;
+    justify-content: center;
+    max-width:300px;
+    
+}
+
+.theteam-member img{
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    padding:1em;
+    max-width:300px;
+    height:auto;
+    flex-shrink: 1;
+}
+@media only screen and (max-width: 600px){
+
+  
+
+    .theteam-member img{
+        align-self: flex-start;
+
+    }
+
+}
+
+footer{
+    
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: gray;
+    padding: 1em;
+}
+
+footer p{
+    padding:0;
+    text-align: center;
+    color: snow;
+}
