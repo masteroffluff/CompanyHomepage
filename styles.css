@@ -4,6 +4,9 @@
 /* Team memebers picture taken from American Psycho copyright 2000 Lionsgate Films. Used without permission. */
 /* Pierce and Pierce and the team mebers names is the creation of Bret Easton Ellis from the novel American Psycho copyright 1991 alos used without permission.*/
 
+:root{
+    font-size:16pt;
+}
 
 body{
     /* background-image:linear-gradient(white,white,ivory); */
@@ -31,7 +34,7 @@ h3{
 
 
 p{
-    padding-bottom:1em;
+    padding-bottom:1rem;
     text-align: justify;
 }
 
@@ -50,13 +53,13 @@ header{
     position:sticky;
 
     justify-content: center;
-    height:6em;
+    height:6rem;
 
 }
 
 header .imgcontainer{
 
-    height: 6em;
+    height: 6rem;
     width:auto;
     display:flex;
     
@@ -89,20 +92,20 @@ nav{
     display: flex;
     flex-wrap: wrap;
     float:right;
-    padding-top:2em;
+    padding-top:2rem;
 }
 
 nav li{
     list-style: none;
     display:inline-flex;
-    margin:10px;
+    margin:8px;
     
 }
 nav a{
-    font-size: 1.2em;
+    font-size: 1.2rem;
 }
 /* tablet veiw */
-@media only screen and (max-width: 640px) and (min-width:431px){
+@media only screen and (max-width: 900px) and (min-width:431px){
     header{
         margin-bottom:10px;
     }
@@ -116,7 +119,7 @@ nav a{
     }
 }
 /* mobile veiw */
-@media only screen and (max-width: 430px){
+@media only screen and (max-width:525px){
     nav{
         
       /*   display:block; */
@@ -127,7 +130,7 @@ nav a{
     }
     nav a{
         display:flex;
-        padding:1.5em;
+        padding:1.5rem;
         
         text-align: center;
     }
@@ -135,7 +138,7 @@ nav a{
         border:maroon 1px solid;
         display: block;
 
-        border-radius: 1em;
+        border-radius: 1rem;
         text-align: center;
         box-shadow: 5px 5px 5px maroon;
         margin-top: 5px;
@@ -170,8 +173,8 @@ main {
 }
 
 .aboutus-text{
-    margin-top:2em;
-    margin-bottom:12em;
+    margin-top:2rem;
+    margin-bottom:12rem;
     align-self: center;
     position:relative;
     float:center;
@@ -181,8 +184,8 @@ main {
     width:75%;
     background-color: snow;
     opacity:90%;
-    padding: 0 1em;
-    border-radius: 0.2em;
+    padding: 0 1rem;
+    border-radius: 0.2rem;
 }
 
 .services-text-container{
@@ -193,7 +196,7 @@ main {
     justify-content: center;
 }
 .services-text{
-    padding:1em;
+    padding:1rem;
     width:18rem;
 }
 
@@ -214,7 +217,7 @@ main {
 .theteam-member{
     display:flex;
     flex-direction: column;
-    padding:1em;
+    padding:1rem;
     justify-content: center;
     max-width:300px;
     
@@ -224,7 +227,7 @@ main {
     display:flex;
     flex-direction: column;
     align-content: center;
-    padding:1em;
+    padding:1rem;
     max-width:300px;
     height:auto;
     flex-shrink: 1;
@@ -247,7 +250,7 @@ footer{
     flex-direction: column;
     justify-content: center;
     background-color: gray;
-    padding: 1em;
+    padding: 1rem;
 }
 
 footer p{
