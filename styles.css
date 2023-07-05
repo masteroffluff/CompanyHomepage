@@ -16,8 +16,18 @@ body{
     padding-bottom: 100px;
     height:auto;
     font-size:120%;
+    /* put everything in a center column */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
 }
 
+/* centeed column */
+.centredColumn{
+    max-width:1500px;
+}
 /* general formatting */
 
 
