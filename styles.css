@@ -113,9 +113,13 @@ nav{
 nav li{
     list-style: none;
     display:inline-flex;
-    margin:8px;
+    padding:0.5rem;
+    margin:0.5rem;
+    background-color: white;
     
 }
+
+
 nav a{
     font-size: 1.2rem;
 }
@@ -172,6 +176,9 @@ nav a{
         margin-bottom: 5px;
     }
 }
+nav li a:hover{
+    color:maroon;
+}
 main {
     display: flex;
     flex-direction: column;
@@ -211,7 +218,9 @@ main {
     justify-content: center;
 }
 .services-text{
-    padding:1rem;
+    background-color: white;
+    padding:0.5rem;
+    margin:0.5rem;
     width:18rem;
 }
 
@@ -232,10 +241,11 @@ main {
 .theteam-member{
     display:flex;
     flex-direction: column;
-    padding:1rem;
+    padding:0.5rem;
+    margin:0.5rem;
     justify-content: top;
     max-width:300px;
-       
+    background-color: white;
 }
 
 .theteam-member img{
@@ -246,6 +256,7 @@ main {
     max-width:300px;
     height:auto;
     flex-shrink: 1;
+    border-radius: 8%;
 }
 @media only screen and (max-width: 600px){
 
