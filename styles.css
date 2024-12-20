@@ -10,9 +10,10 @@
 
 body{
     /* background-image:linear-gradient(white,white,ivory); */
-    background-color: snow;
+    background-color:hsl(23, 75%, 97%);
     font-family: Balthazar, 'Times New roman', serif;
     color: rgb(44, 44, 44);
+    padding:1rem;
     padding-bottom: 100px;
     height:auto;
     font-size:120%;
@@ -27,10 +28,13 @@ body{
 /* centeed column */
 .centredColumn{
     max-width:1500px;
+    background-color: snow;
 }
 /* general formatting */
 
-
+div{
+    border-radius: 2px;
+}
 h2{
     color: maroon;
     text-align: center;
@@ -103,6 +107,7 @@ nav{
     flex-wrap: wrap;
     float:right;
     padding-top:2rem;
+    margin-right: 1rem;
 }
 
 nav li{
@@ -228,9 +233,9 @@ main {
     display:flex;
     flex-direction: column;
     padding:1rem;
-    justify-content: center;
+    justify-content: top;
     max-width:300px;
-    
+       
 }
 
 .theteam-member img{
@@ -254,13 +259,13 @@ main {
 }
 
 footer{
-    
+    max-width:1500px;
     width: 100%;
     display:flex;
     flex-direction: column;
     justify-content: center;
     background-color: gray;
-    padding: 1rem;
+    padding: 1rem 0rem;
 }
 
 footer p{
